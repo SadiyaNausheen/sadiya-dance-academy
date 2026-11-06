@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Book a veterinary appointment at Nausheen Pet Care Center.">
+<title>Appointment | Nausheen Pet Care Center</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">♡ Caring for every paw, feather & whisker — <b>Nausheen Pet Care Center</b></div>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark">🐾</div>
+      <div class="brand-text"><strong>Nausheen Pet Care</strong><span>VETERINARY CLINIC</span></div>
+    </a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <ul class="nav-links"><li><a href="index.html" class="">Home</a></li>
+<li><a href="about.html" class="">About</a></li>
+<li><a href="services.html" class="">Services</a></li>
+<li><a href="appointment.html" class="active">Appointment</a></li>
+<li><a href="gallery.html" class="">Gallery</a></li>
+<li><a href="contact.html" class="">Contact</a></li><li><a class="nav-cta" href="appointment.html">Book Appointment</a></li></ul>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="container"><div class="breadcrumb">HOME / APPOINTMENT</div><h1>Book an Appointment</h1><p>Tell us a little about you and your pet. This demo form saves the request in your browser for your FSD project.</p></div></section>
+<section class="section">
+<div class="container form-wrap">
+  <aside class="info-panel">
+    <h2>Let's care for them. ♡</h2><p>Choose a preferred date and service. Our clinic team can then confirm the visit.</p>
+    <div class="info-item"><div>🕘</div><div><b>Clinic Hours</b><span>Mon–Sat: 9 AM–7 PM<br>Sun: 10 AM–2 PM</span></div></div>
+    <div class="info-item"><div>📞</div><div><b>Phone</b><span>+91 98765 43210</span></div></div>
+    <div class="info-item"><div>✉️</div><div><b>Email</b><span>hello@nausheenpetcare.com</span></div></div>
+    <div class="info-item"><div>📍</div><div><b>Clinic</b><span>Nausheen Pet Care Center<br>Hyderabad, Telangana</span></div></div>
+  </aside>
+  <div class="form-card">
+    <form id="appointmentForm">
+      <div class="form-grid">
+        <div class="field"><label for="ownerName">Pet Parent Name *</label><input id="ownerName" name="ownerName" required placeholder="Your name"></div>
+        <div class="field"><label for="phone">Phone Number *</label><input id="phone" name="phone" required type="tel" placeholder="+91 98765 43210"></div>
+        <div class="field"><label for="petName">Pet Name *</label><input id="petName" name="petName" required placeholder="e.g. Bruno"></div>
+        <div class="field"><label for="petType">Pet Type *</label><select id="petType" name="petType" required><option value="">Select pet</option><option>Dog</option><option>Cat</option><option>Bird</option><option>Rabbit</option><option>Other</option></select></div>
+        <div class="field"><label for="date">Preferred Date *</label><input id="date" name="date" type="date" required></div>
+        <div class="field"><label for="time">Preferred Time *</label><select id="time" name="time" required><option value="">Select time</option><option>09:00 AM</option><option>10:00 AM</option><option>11:00 AM</option><option>12:00 PM</option><option>02:00 PM</option><option>03:00 PM</option><option>04:00 PM</option><option>05:00 PM</option><option>06:00 PM</option></select></div>
+        <div class="field full"><label for="service">Service Required *</label><select id="service" name="service" required><option value="">Select a service</option><option>General Consultation</option><option>Vaccination</option><option>Grooming</option><option>Dental Care</option><option>Surgery Consultation</option><option>Pet Pharmacy</option><option>Other</option></select></div>
+        <div class="field full"><label for="message">Pet's Concern / Notes</label><textarea id="message" name="message" placeholder="Tell us briefly what your pet needs..."></textarea></div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit Appointment Request</button>
+      <div id="appointmentNotice" class="notice"></div>
+    </form>
+  </div>
+</div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Nausheen Pet Care Center 🐾</h3>
+      <p>A warm, modern veterinary clinic where pets are treated with skill, patience and genuine love.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li><li><a href="services.html">Our Services</a></li>
+        <li><a href="appointment.html">Book Appointment</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Clinic Hours</h3>
+      <p>Mon – Sat: 9:00 AM – 7:00 PM</p><p>Sunday: 10:00 AM – 2:00 PM</p>
+      <p style="margin-top:8px">Emergency support available by prior arrangement.</p>
+    </div>
+  </div>
+  <div class="container copyright"><span>© <span data-year></span> Nausheen Pet Care Center</span><span>Made with care for every companion.</span></div>
+</footer><script src="script.js"></script></body></html>
